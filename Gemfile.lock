@@ -41,6 +41,8 @@ GEM
       activesupport (= 3.2.22.5)
       arel (~> 3.0.2)
       tzinfo (~> 0.3.29)
+    activerecord-mysql2-adapter (0.0.3)
+      mysql2
     activeresource (3.2.22.5)
       activemodel (= 3.2.22.5)
       activesupport (= 3.2.22.5)
@@ -186,6 +188,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  activerecord-mysql2-adapter
   authlogic!
   carmen
   factory_girl_rails

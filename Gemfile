@@ -33,6 +33,7 @@ gem 'haml-rails'
 gem 'omniauth', :git => 'git://github.com/intridea/omniauth.git', :tag => 'v1.3.2'
 gem 'twitter'
 gem 'koala'
+gem 'activerecord-mysql2-adapter'
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
