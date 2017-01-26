@@ -1,4 +1,14 @@
 GIT
+  remote: git://github.com/binarylogic/authlogic.git
+  revision: 9662e99c29aec639de128562580133f87cca6186
+  specs:
+    authlogic (3.5.0)
+      activerecord (>= 3.2, < 5.1)
+      activesupport (>= 3.2, < 5.1)
+      request_store (~> 1.0)
+      scrypt (>= 1.2, < 4.0)
+
+GIT
   remote: git://github.com/intridea/omniauth.git
   revision: aa9f64705192de3d0d401e114312ad10d4194325
   tag: v1.3.2
@@ -6,14 +16,6 @@ GIT
     omniauth (1.3.2)
       hashie (>= 1.2, < 4)
       rack (>= 1.0, < 3)
-
-GIT
-  remote: git://github.com/odorcicd/authlogic.git
-  revision: a087ad0cba3c165ba22fcf176c28b6f7517931e8
-  branch: rails3
-  specs:
-    authlogic (2.1.3)
-      activesupport
 
 GEM
   remote: http://rubygems.org/
@@ -64,6 +66,10 @@ GEM
       railties (>= 3.0.0)
     faraday (0.11.0)
       multipart-post (>= 1.2, < 3)
+    ffi (1.9.17)
+    ffi-compiler (1.0.1)
+      ffi (>= 1.0.0)
+      rake
     gravtastic (3.2.6)
     haml (4.0.7)
       tilt
@@ -125,6 +131,7 @@ GEM
     rdiscount (2.2.0.1)
     rdoc (3.12.2)
       json (~> 1.4)
+    request_store (1.3.2)
     rspec-collection_matchers (1.1.3)
       rspec-expectations (>= 2.99.0.beta1)
     rspec-core (2.99.2)
@@ -140,6 +147,9 @@ GEM
       rspec-core (~> 2.99.0)
       rspec-expectations (~> 2.99.0)
       rspec-mocks (~> 2.99.0)
+    scrypt (3.0.3)
+      ffi-compiler (>= 1.0.0)
+      rake
     simple_oauth (0.3.1)
     sprockets (2.2.3)
       hike (~> 1.2)
