@@ -71,7 +71,7 @@ GEM
       ffi (>= 1.0.0)
       rake
     gravtastic (3.2.6)
-    haml (4.0.7)
+    haml (3.1.4)
       tilt
     haml-edge (3.1.79)
     hashie (3.4.6)
