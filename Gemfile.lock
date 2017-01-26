@@ -73,7 +73,7 @@ GEM
     gravtastic (3.2.6)
     haml (3.1.4)
       tilt
-    haml-edge (3.1.79)
+    haml-edge (3.1.4)
     hashie (3.4.6)
     hike (1.2.3)
     http (2.1.0)
