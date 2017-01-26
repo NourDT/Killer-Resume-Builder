@@ -71,9 +71,13 @@ GEM
       ffi (>= 1.0.0)
       rake
     gravtastic (3.2.6)
-    haml (3.1.4)
+    haml (4.0.7)
       tilt
-    haml-edge (3.1.4)
+    haml-rails (0.4)
+      actionpack (>= 3.1, < 4.1)
+      activesupport (>= 3.1, < 4.1)
+      haml (>= 3.1, < 4.1)
+      railties (>= 3.1, < 4.1)
     hashie (3.4.6)
     hike (1.2.3)
     http (2.1.0)
@@ -186,8 +190,7 @@ DEPENDENCIES
   carmen
   factory_girl_rails
   gravtastic
-  haml
-  haml-edge
+  haml-rails
   koala
   mini_magick
   mysql2
