@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.1'
+gem 'rails', '3.2.22.5'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -31,7 +31,7 @@ gem 'useragent'
 gem 'gravtastic'
 gem 'haml-edge'
 gem 'haml'
-gem 'omniauth', :git => 'git://github.com/intridea/omniauth.git', :tag => 'v0.2.0.beta5'
+gem 'omniauth', :git => 'git://github.com/intridea/omniauth.git', :tag => 'v1.3.2'
 gem 'twitter'
 gem 'koala'
 
