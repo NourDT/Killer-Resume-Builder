@@ -38,6 +38,7 @@ gem 'twitter'
 gem 'koala'
 gem 'activerecord-mysql2-adapter'
 gem 'activerecord-postgresql-adapter'
+gem 'test-unit'
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
