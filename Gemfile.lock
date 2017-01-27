@@ -131,6 +131,7 @@ GEM
     omniauth-oauth2 (1.4.0)
       oauth2 (~> 1.0)
       omniauth (~> 1.2)
+    pg (0.19.0)
     polyglot (0.3.5)
     power_assert (0.4.1)
     public_suffix (2.0.5)
@@ -226,6 +227,7 @@ DEPENDENCIES
   omniauth-facebook
   omniauth-linkedin
   omniauth-linkedin-oauth2
+  pg
   rails (= 3.2.22.5)
   rdiscount
   rspec-rails (~> 2.4)
