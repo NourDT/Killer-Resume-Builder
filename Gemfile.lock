@@ -43,6 +43,8 @@ GEM
       tzinfo (~> 0.3.29)
     activerecord-mysql2-adapter (0.0.3)
       mysql2
+    activerecord-postgresql-adapter (0.0.1)
+      pg
     activeresource (3.2.22.5)
       activemodel (= 3.2.22.5)
       activesupport (= 3.2.22.5)
@@ -131,6 +133,7 @@ GEM
     omniauth-oauth2 (1.4.0)
       oauth2 (~> 1.0)
       omniauth (~> 1.2)
+    pg (0.19.0)
     polyglot (0.3.5)
     public_suffix (2.0.5)
     rack (1.4.7)
@@ -211,6 +214,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-mysql2-adapter
+  activerecord-postgresql-adapter
   authlogic!
   carmen
   factory_girl_rails
