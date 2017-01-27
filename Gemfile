@@ -37,6 +37,7 @@ gem 'omniauth-linkedin-oauth2'
 gem 'twitter'
 gem 'koala'
 gem 'activerecord-mysql2-adapter'
+gem 'activerecord-postgresql-adapter'
 
 # Bundle gems for the local environment. Make sure to
 # put test-only gems in this group so their generators
